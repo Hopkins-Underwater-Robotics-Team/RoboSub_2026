@@ -1,0 +1,268 @@
+<mxfile host="65bd71144e">
+    <diagram id="g3synUdZH1KIBAHBmlB9" name="Page-1">
+        <mxGraphModel dx="7188" dy="3532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="43" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Score all &lt;b&gt;860 &lt;/b&gt;total potential points in &lt;i&gt;Design Documentation&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="-480" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Goal: HURT wins RoboSub 2026" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="-640" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Score &lt;b&gt;200 &lt;/b&gt;on &lt;i&gt;Technical Design Report&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1200" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Score &lt;b&gt;120&amp;nbsp;&lt;/b&gt;on &lt;i&gt;Team Introduction Video&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Score &lt;b&gt;180 &lt;/b&gt;on &lt;i&gt;Team Website&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1000" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Score &lt;b&gt;180 &lt;/b&gt;on &lt;i&gt;System Assessment&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-400" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Score &lt;b&gt;200 &lt;/b&gt;on &lt;i&gt;Design Presentation&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;flipH=1;" vertex="1" parent="1">
+                    <mxGeometry x="-600" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Score all &lt;b&gt;XXX&amp;nbsp;&lt;/b&gt;total potential points in &lt;i&gt;Autonomy Challenge&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="-1450" y="-190" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Score &lt;b&gt;XXX&lt;/b&gt;&amp;nbsp;on &lt;i&gt;Pinger Tasks&amp;nbsp;&lt;/i&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="-1600" y="-20" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Adhere to all AUV Requirements" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="-480" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;b&gt;Inspection&lt;/b&gt;: Shall NOT pose an undreasonable safety hazard to anyone" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;b&gt;Autonomy&lt;/b&gt;: Shall be fully auonomous" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span&gt;Shall have all autonomy decisions made onboard the AUV&lt;/span&gt;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="540" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;b&gt;Submerged&lt;/b&gt;: All parts of the AUV shall be submerged during qualifying, semi-finals, or finals runs" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;b&gt;Weight&lt;/b&gt;: Shall Weigh less than 125 lbs (below 48.5 lbs for max)" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;b&gt;Size&lt;/b&gt;: Shall fit within 3ft x 3ft x 6ft volume" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;b&gt;Battery&lt;/b&gt;: Shall be battery powered" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1760" y="-320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="All batteries shall be sealed&amp;nbsp;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1860" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Open circuit for any battery shall not exceed 60 VDC" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="2060" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="We shall follow battery safety best practices on selected battery&amp;nbsp;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1660" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="All batteries shall be sealed&amp;nbsp;" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-720" y="-360" as="sourcePoint"/>
+                        <mxPoint x="-560" y="-320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-320" y="-360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-720" y="-360" as="sourcePoint"/>
+                        <mxPoint x="-1120" y="-320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-1120" y="-360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-920" y="-360" as="sourcePoint"/>
+                        <mxPoint x="-560" y="-320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-520.5899999999999" y="-360" as="sourcePoint"/>
+                        <mxPoint x="-520.5899999999999" y="-320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="-520" as="sourcePoint"/>
+                        <mxPoint x="330" y="-410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-720" y="-520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="Has clear identification of kill switch and veification of operation" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="-260" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Has shrouded propellers" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="-60" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Components are saeftly secured on AUV" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Safe areas identified to grab/secure AUV" style="rounded=0;html=1;whiteSpace=wrap;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="-160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="endArrow=classic;html=1;entryX=0.363;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="55">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="-200" as="sourcePoint"/>
+                        <mxPoint x="-200" y="-200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-202" y="-200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="26">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="30" as="sourcePoint"/>
+                        <mxPoint x="120" y="-200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="-200" as="sourcePoint"/>
+                        <mxPoint x="200" y="-150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="-200" as="sourcePoint"/>
+                        <mxPoint x="200" y="-150" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="-200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="58">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="-200" as="sourcePoint"/>
+                        <mxPoint x="200" y="-150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="28" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="830" y="-60" as="sourcePoint"/>
+                        <mxPoint x="880" y="-110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=classic;html=1;entryX=0.363;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1840" y="-200" as="sourcePoint"/>
+                        <mxPoint x="1518" y="-158" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1518" y="-200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1840" y="-240" as="sourcePoint"/>
+                        <mxPoint x="1840" y="-200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1740" y="-200" as="sourcePoint"/>
+                        <mxPoint x="1740" y="-160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1840" y="-200" as="sourcePoint"/>
+                        <mxPoint x="2140" y="-160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2140" y="-200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1940" y="-200" as="sourcePoint"/>
+                        <mxPoint x="1940" y="-160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="-520" as="sourcePoint"/>
+                        <mxPoint x="50" y="-220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1020" y="-520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1440" y="-360" as="sourcePoint"/>
+                        <mxPoint x="1680" y="-390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="" style="endArrow=classic;html=1;entryX=0.363;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1020" y="-360" as="sourcePoint"/>
+                        <mxPoint x="120" y="-320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="-360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1019.86" y="-400" as="sourcePoint"/>
+                        <mxPoint x="1019.86" y="-360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="620" y="-360" as="sourcePoint"/>
+                        <mxPoint x="620" y="-320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1020" y="-360" as="sourcePoint"/>
+                        <mxPoint x="1840" y="-320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1840" y="-360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1119.6599999999999" y="-360" as="sourcePoint"/>
+                        <mxPoint x="1119.6599999999999" y="-320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="919.66" y="-360" as="sourcePoint"/>
+                        <mxPoint x="919.66" y="-320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="60" y="-430" as="sourcePoint"/>
+                        <mxPoint y="-520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
