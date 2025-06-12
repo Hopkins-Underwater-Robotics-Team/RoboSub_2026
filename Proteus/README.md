@@ -1,3 +1,3 @@
 Proteus is the name of our first generation AUV that we will be using for the 2026 RoboSub competition.
 
-![Flowchart showing the system architecture of the Proteus autonomous underwater vehicle, including labeled components such as sensors, actuators, and control modules, connected by directional arrows. The diagram is organized in a logical flow from perception to action, with a technical and focused tone.](./Proteus_Flowchart.drawio.svg)
+![](./Proteus_Flowchart.drawio.svg)
