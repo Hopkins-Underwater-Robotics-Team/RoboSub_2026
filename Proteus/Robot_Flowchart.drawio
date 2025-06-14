@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
+  <diagram name="Page-1" id="tOSAF_ckE-xLktAB9q96">
+    <mxGraphModel dx="1028" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-1" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xk5In5hX4t1pC-sHS-e8-2" target="xk5In5hX4t1pC-sHS-e8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-2" value="Cognition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-3" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xk5In5hX4t1pC-sHS-e8-4" target="xk5In5hX4t1pC-sHS-e8-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-4" value="Action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xk5In5hX4t1pC-sHS-e8-6" target="xk5In5hX4t1pC-sHS-e8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-6" value="Perception" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-7" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xk5In5hX4t1pC-sHS-e8-8" target="xk5In5hX4t1pC-sHS-e8-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-8" value="World" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-9" value="Robot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="520" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Overview&lt;/h1&gt;&lt;p&gt;Perception recieves what is happening to the world, that output is sent ot the congition (brain), and then the robot rakes action with the world&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Autonoumous Navigation&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(49, 49, 49); font-family: NVIDIASans, Arial;&quot;&gt;&lt;font style=&quot;&quot;&gt;allows robots to move independently through various environments, making decisions about their path and avoiding obstacles without human intervention.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xk5In5hX4t1pC-sHS-e8-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
