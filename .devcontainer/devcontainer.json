@@ -1,6 +1,13 @@
 {
   "name": "HURT Dev",
   "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros"
+      ]
+    }
+  },
   "runArgs": [
     "--privileged",
     "--network=host"
