@@ -1,0 +1,5 @@
+{
+  "name": "nano",
+  "dockerFile": "Dockerfile",
+  "workspaceFolder": "/ws"
+}
