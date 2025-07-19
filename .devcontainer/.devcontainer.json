@@ -1,0 +1,14 @@
+{
+    "name": "orin",
+    "service": "orin",
+    "dockerComposeFile": "./Docker-compose.yaml",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Ranch-Hand-Robotics.rde-ros-2"
+            ]
+        }
+    },
+    "workspaceFolder": "/ws",
+    "shutdownAction": "stopCompose"
+}

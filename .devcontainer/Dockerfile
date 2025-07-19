@@ -1,38 +1,37 @@
-FROM osrf/ros:humble-desktop-full
+FROM ros:humble
 
-# Add ubuntu user with same UID and GID as your host system, if it doesn't already exist
-# Since Ubuntu 24.04, a non-root user is created by default with the name vscode and UID=1000
-ARG USERNAME=ubuntu
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
-RUN if ! id -u $USER_UID >/dev/null 2>&1; then \
-        groupadd --gid $USER_GID $USERNAME && \
-        useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME; \
-    fi
-# Add sudo support for the non-root user
+# Dist upgrade - https://github.com/ros2/rosidl/issues/680#issuecomment-1125188129
+
 RUN apt-get update && \
-    apt-get install -y sudo && \
-    echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME && \
-    chmod 0440 /etc/sudoers.d/$USERNAME
+    apt dist-upgrade -y && \
+    apt-get install -y --no-install-recommends \
+        python-is-python3 \
+	libopencv-dev \
+	python3-opencv \
+        libboost-all-dev \
+        openssl \
+        git \
+        gdb \
+	i2c-tools \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        curl \
+        ros-humble-imu-tools \
+        ros-humble-teleop-twist-joy \
+        libi2c-dev \
+        ros-humble-image-transport
 
-# Switch from root to user
-USER $USERNAME
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-# Add user to video group to allow access to webcam
-RUN sudo usermod --append --groups video $USERNAME
+ENV NVM_DIR /root/.nvm
+ENV NODE_VERSION 20.10.0
 
-# Update all packages
-RUN sudo apt update && sudo apt upgrade -y
+# install node and npm
+RUN . $NVM_DIR/nvm.sh \
+    && nvm install $NODE_VERSION \
+    && nvm alias default $NODE_VERSION \
+    && nvm use default
 
-# Install Git
-RUN sudo apt install -y git
 
-# Rosdep update
-RUN rosdep update
-
-# Source the ROS setup file
-RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
-
-################################
-## ADD ANY CUSTOM SETUP BELOW ##
-################################
+ENTRYPOINT ["./ros_entrypoint.sh"]
+CMD [ "bash" ]
