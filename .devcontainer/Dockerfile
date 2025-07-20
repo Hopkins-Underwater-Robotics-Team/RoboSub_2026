@@ -38,8 +38,8 @@ RUN apt-get update && \
 USER $USERNAME
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-ENV NVM_DIR /home/$USERNAME/.nvm
-ENV NODE_VERSION 20.10.0
+ENV NVM_DIR=/home/$USERNAME/.nvm \
+    NODE_VERSION=20.10.0
 
 # install node and npm
 RUN . $NVM_DIR/nvm.sh \
