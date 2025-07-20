@@ -8,8 +8,8 @@
           "USERNAME": "david"
       }
     },
-  "workspaceFolder": "/source=${localWorkspaceFolderBasename}",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind",
   "customizations": {
     "vscode": {
         "extensions":[
@@ -18,7 +18,8 @@
             "twxs.cmake",
             "donjayamanne.python-extension-pack",
             "eamodio.gitlens",
-            "Ranch-Hand-Robotics.rde-ros-2"
+            "Ranch-Hand-Robotics.rde-ros-2",
+            "Ranch-Hand-Robotics.urdf-editor"
         ]
     }
   },
