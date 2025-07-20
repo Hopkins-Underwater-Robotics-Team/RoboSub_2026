@@ -8,8 +8,8 @@
           "USERNAME": "david"
       }
     },
-  "workspaceFolder": "/ws",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind",
+  "workspaceFolder": "/source=${localWorkspaceFolderBasename}",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "customizations": {
     "vscode": {
         "extensions":[
@@ -35,10 +35,12 @@
       "-e", "DISPLAY=${env:DISPLAY}"
   ],
   "mounts": [
-    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
-    "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached",
-    "source=/dev/nvidia0,target=/dev/nvidia0,type=bind",
-    "source=/dev/nvidiactl,target=/dev/nvidiactl,type=bind"
-  ],
-  "postCreateCommand": "sudo rosdep update && sudo rosdep install --from-paths src --ignore-src -y && sudo chown -R $(whoami) /ws"
+      "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
+      "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached",
+      "source=/dev/nvidia0,target=/dev/nvidia0,type=bind",
+      "source=/dev/nvidiactl,target=/dev/nvidiactl,type=bind",
+      "source=/home/david/.ssh,target=/home/david/.ssh,type=bind,consistency=cached",
+      "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+    ],
+  "postCreateCommand": "sudo chmod 600 /home/david/.ssh/id_* && sudo chown -R david:david /home/david/.ssh && rosdep update && rosdep install --from-paths src --ignore-src -y"
 }
