@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef TURTLESIM__MSG__COLOR_HPP_
-#define TURTLESIM__MSG__COLOR_HPP_
-
-#include "turtlesim/msg/detail/color__struct.hpp"
-#include "turtlesim/msg/detail/color__builder.hpp"
-#include "turtlesim/msg/detail/color__traits.hpp"
-#include "turtlesim/msg/detail/color__type_support.hpp"
-
-#endif  // TURTLESIM__MSG__COLOR_HPP_
+/RoboSub_2026/build/turtlesim/rosidl_generator_cpp/turtlesim/msg/color.hpp

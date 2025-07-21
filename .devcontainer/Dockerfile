@@ -13,7 +13,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-# Dist upgrade - https://github.com/ros2/rosidl/issues/680#issuecomment-1125188129
+# System upgrades and core dependencies
 RUN apt-get update && \
     apt dist-upgrade -y && \
     apt-get install -y --no-install-recommends \
@@ -31,9 +31,14 @@ RUN apt-get update && \
         curl \
         ros-humble-imu-tools \
         ros-humble-teleop-twist-joy \
-        libi2c-dev \
         ros-humble-image-transport \
-        ros-humble-desktop
+        ros-humble-desktop \
+        ros-humble-turtlesim \
+    && rm -rf /var/lib/apt/lists/*
+
+# Auto-source ROS for all users and the specific user
+RUN echo "source /opt/ros/humble/setup.bash" >> /etc/bash.bashrc && \
+    echo "source /opt/ros/humble/setup.bash" >> /home/$USERNAME/.bashrc
 
 # Install Node.js as the david user
 USER $USERNAME
@@ -42,7 +47,7 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | b
 ENV NVM_DIR=/home/$USERNAME/.nvm \
     NODE_VERSION=20.10.0
 
-# install node and npm
+# Install node and npm
 RUN . $NVM_DIR/nvm.sh \
     && nvm install $NODE_VERSION \
     && nvm alias default $NODE_VERSION \

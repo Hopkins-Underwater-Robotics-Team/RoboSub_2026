@@ -8,5 +8,6 @@
         "/RoboSub_2026/install/turtlesim/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/RoboSub_2026/build/turtlesim/turtlesim__py"
 }

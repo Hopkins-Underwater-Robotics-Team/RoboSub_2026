@@ -9,7 +9,7 @@
 /RoboSub_2026/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_c.dir
 /RoboSub_2026/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir
 /RoboSub_2026/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir
-/RoboSub_2026/build/turtlesim/CMakeFiles/ament_cmake_python_copy_turtlesim.dir
+/RoboSub_2026/build/turtlesim/CMakeFiles/ament_cmake_python_symlink_turtlesim.dir
 /RoboSub_2026/build/turtlesim/CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir
 /RoboSub_2026/build/turtlesim/CMakeFiles/turtlesim__rosidl_generator_py.dir
 /RoboSub_2026/build/turtlesim/CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir

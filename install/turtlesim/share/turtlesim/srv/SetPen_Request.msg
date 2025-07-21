@@ -1,5 +1,1 @@
-uint8 r
-uint8 g
-uint8 b
-uint8 width
-uint8 off
+/RoboSub_2026/build/turtlesim/rosidl_cmake/srv/SetPen_Request.msg

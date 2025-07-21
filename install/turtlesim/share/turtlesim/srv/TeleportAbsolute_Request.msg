@@ -1,3 +1,1 @@
-float32 x
-float32 y
-float32 theta
+/RoboSub_2026/build/turtlesim/rosidl_cmake/srv/TeleportAbsolute_Request.msg

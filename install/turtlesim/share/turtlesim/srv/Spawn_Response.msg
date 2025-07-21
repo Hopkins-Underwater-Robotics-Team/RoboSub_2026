@@ -1,2 +1,1 @@
-
-string name
+/RoboSub_2026/build/turtlesim/rosidl_cmake/srv/Spawn_Response.msg
