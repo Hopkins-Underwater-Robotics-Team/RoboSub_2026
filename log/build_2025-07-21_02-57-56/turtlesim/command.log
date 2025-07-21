@@ -1,0 +1,2 @@
+Invoking command in '/RoboSub_2026/build/turtlesim': /usr/bin/cmake /RoboSub_2026/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/turtlesim
+Invoked command in '/RoboSub_2026/build/turtlesim' returned '1': /usr/bin/cmake /RoboSub_2026/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/turtlesim
