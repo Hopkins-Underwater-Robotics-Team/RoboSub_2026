@@ -24,6 +24,7 @@ RUN apt-get update && \
         openssl \
         git \
         gdb \
+        libi2c-dev \
         i2c-tools \
         libcurl4-openssl-dev \
         libssl-dev \
