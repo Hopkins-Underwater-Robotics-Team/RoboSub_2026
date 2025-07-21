@@ -8,8 +8,8 @@
           "USERNAME": "david"
       }
     },
-  "workspaceFolder": "/ws",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind",
+  "workspaceFolder": "/${localWorkspaceFolderBasename}",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "customizations": {
     "vscode": {
         "extensions":[
