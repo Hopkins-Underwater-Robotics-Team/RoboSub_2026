@@ -1,0 +1,76 @@
+[0.020s] Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoboSub_2026/src/mpu6500_ros -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/mpu6500_ros
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.420s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.588s] -- Detecting CXX compiler ABI info - done
+[0.614s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.614s] -- Detecting CXX compile features
+[0.616s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.948s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.161s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.248s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.257s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.273s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.413s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.418s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.570s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.624s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.702s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.719s] -- Looking for pthread.h
+[1.857s] -- Looking for pthread.h - found
+[1.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.016s] -- Found Threads: TRUE  
+[2.149s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.346s] -- Configuring done
+[2.371s] -- Generating done
+[2.380s] -- Build files have been written to: /RoboSub_2026/build/mpu6500_ros
+[2.399s] Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoboSub_2026/src/mpu6500_ros -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/mpu6500_ros
+[2.403s] Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
+[2.504s] [ 28%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_fifo.c.o[0m
+[2.504s] [ 28%] [32mBuilding CXX object CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o[0m
+[2.505s] [ 57%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_dmp.c.o[0m
+[2.505s] [ 71%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500.c.o[0m
+[2.506s] [ 71%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_basic.c.o[0m
+[2.512s] [ 85%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500_interface.c.o[0m
+[2.529s] In file included from [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_dmp.c:37[m[K:
+[2.529s] [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_dmp.h:40:10:[m[K [01;31m[Kfatal error: [m[Kdriver_mpu6500_interface.h: No such file or directory
+[2.529s]    40 | #include [01;31m[K"driver_mpu6500_interface.h"[m[K
+[2.529s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.530s] In file included from [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_fifo.c:37[m[K:
+[2.530s] [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_fifo.h:40:10:[m[K [01;31m[Kfatal error: [m[Kdriver_mpu6500_interface.h: No such file or directory
+[2.530s]    40 | #include [01;31m[K"driver_mpu6500_interface.h"[m[K
+[2.530s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.530s] compilation terminated.
+[2.530s] compilation terminated.
+[2.531s] In file included from [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_basic.c:37[m[K:
+[2.531s] [01m[K/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_basic.h:40:10:[m[K [01;31m[Kfatal error: [m[Kdriver_mpu6500_interface.h: No such file or directory
+[2.531s]    40 | #include [01;31m[K"driver_mpu6500_interface.h"[m[K
+[2.531s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.531s] compilation terminated.
+[2.531s] gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:104: CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_dmp.c.o] Error 1
+[2.531s] gmake[2]: *** Waiting for unfinished jobs....
+[2.533s] gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:90: CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_basic.c.o] Error 1
+[2.534s] gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:118: CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_fifo.c.o] Error 1
+[2.539s] [01m[K/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500_interface.c:1:10:[m[K [01;31m[Kfatal error: [m[Kdriver_mpu6500_interface.h: No such file or directory
+[2.539s]     1 | #include [01;31m[K"driver_mpu6500_interface.h"[m[K
+[2.539s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.540s] compilation terminated.
+[2.541s] gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:146: CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500_interface.c.o] Error 1
+[3.047s] In file included from [01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:9[m[K:
+[3.047s] [01m[K/RoboSub_2026/src/mpu6500_ros/../mpu6500_driver/example/driver_mpu6500_basic.h:40:10:[m[K [01;31m[Kfatal error: [m[Kdriver_mpu6500_interface.h: No such file or directory
+[3.047s]    40 | #include [01;31m[K"driver_mpu6500_interface.h"[m[K
+[3.047s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.048s] compilation terminated.
+[3.051s] gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:76: CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o] Error 1
+[3.322s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu6500_publisher.dir/all] Error 2
+[3.322s] gmake: *** [Makefile:146: all] Error 2
+[3.328s] Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6

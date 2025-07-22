@@ -1,0 +1,28 @@
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:[m[K In member function ‘[01m[Kvoid MPU6500Publisher::timer_callback()[m[K’:
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:117:49:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint16_t*[m[K’ {aka ‘[01m[Kshort int*[m[K’} to ‘[01m[Kint16_t (*)[3][m[K’ {aka ‘[01m[Kshort int (*)[3][m[K’}
+  117 |         uint8_t result = mpu6500_read(&handle_, [01;31m[Kaccel_raw[m[K, gyro_raw, &temp_raw);
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                 [01;31m[K|[m[K
+      |                                                 [01;31m[Kint16_t* {aka short int*}[m[K
+In file included from [01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:10[m[K:
+[01m[K/RoboSub_2026/src/mpu6500_ros/../mpu6500_driver/inc/driver_mpu6500.h:721:32:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kuint8_t mpu6500_read(mpu6500_handle_t*, int16_t (*)[3], float (*)[3], int16_t (*)[3], float (*)[3], uint16_t*)[m[K’
+  721 |                      [01;36m[Kint16_t (*accel_raw)[3][m[K, float (*accel_g)[3],
+      |                      [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:124:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmpu6500_accelerometer_raw_to_g[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpu6500_accelerometer_range_t[m[K’?
+  124 |         if ([01;31m[Kmpu6500_accelerometer_raw_to_g[m[K(&handle_, accel_raw, accel_g) != 0) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kmpu6500_accelerometer_range_t[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:129:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmpu6500_gyroscope_raw_to_dps[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpu6500_gyroscope_range_t[m[K’?
+  129 |         if ([01;31m[Kmpu6500_gyroscope_raw_to_dps[m[K(&handle_, gyro_raw, gyro_dps) != 0) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kmpu6500_gyroscope_range_t[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:134:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmpu6500_temperature_raw_to_celsius[m[K’ was not declared in this scope
+  134 |         if ([01;31m[Kmpu6500_temperature_raw_to_celsius[m[K(&handle_, temp_raw, &temperature) != 0) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:[m[K In member function ‘[01m[Kvoid MPU6500Publisher::publish_imu_data(float*, float*, float, rclcpp::Time)[m[K’:
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:145:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktemp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  145 |     void publish_imu_data(float accel[3], float gyro[3], [01;35m[Kfloat temp[m[K, rclcpp::Time timestamp)
+      |                                                          [01;35m[K~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:76: CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu6500_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

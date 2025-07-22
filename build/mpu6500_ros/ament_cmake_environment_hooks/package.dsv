@@ -1,0 +1,4 @@
+source;share/mpu6500_ros/local_setup.bash
+source;share/mpu6500_ros/local_setup.dsv
+source;share/mpu6500_ros/local_setup.sh
+source;share/mpu6500_ros/local_setup.zsh

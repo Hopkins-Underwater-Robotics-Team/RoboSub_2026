@@ -1,0 +1,20 @@
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:[m[K In function ‘[01m[Kuint8_t mpu6500_interface_spi_read(uint8_t, uint8_t*, uint16_t)[m[K’:
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |     uint8_t mpu6500_interface_spi_read([01;35m[Kuint8_t reg[m[K, uint8_t *buf, uint16_t len) { return 1; } // Always fail
+      |                                        [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |     uint8_t mpu6500_interface_spi_read(uint8_t reg, [01;35m[Kuint8_t *buf[m[K, uint16_t len) { return 1; } // Always fail
+      |                                                     [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |     uint8_t mpu6500_interface_spi_read(uint8_t reg, uint8_t *buf, [01;35m[Kuint16_t len[m[K) { return 1; } // Always fail
+      |                                                                   [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:[m[K In function ‘[01m[Kuint8_t mpu6500_interface_spi_write(uint8_t, uint8_t*, uint16_t)[m[K’:
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     uint8_t mpu6500_interface_spi_write([01;35m[Kuint8_t reg[m[K, uint8_t *buf, uint16_t len) { return 1; } // Always fail
+      |                                         [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     uint8_t mpu6500_interface_spi_write(uint8_t reg, [01;35m[Kuint8_t *buf[m[K, uint16_t len) { return 1; } // Always fail
+      |                                                      [01;35m[K~~~~~~~~~^~~[m[K
+[01m[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |     uint8_t mpu6500_interface_spi_write(uint8_t reg, uint8_t *buf, [01;35m[Kuint16_t len[m[K) { return 1; } // Always fail
+      |                                                                    [01;35m[K~~~~~~~~~^~~[m[K

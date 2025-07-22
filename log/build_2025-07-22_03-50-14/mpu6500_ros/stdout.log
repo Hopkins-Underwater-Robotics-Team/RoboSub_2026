@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target mpu6500_publisher[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/example/driver_mpu6500_basic.c.o[0m

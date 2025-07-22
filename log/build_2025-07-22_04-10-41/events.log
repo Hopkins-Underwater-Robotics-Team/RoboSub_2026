@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001130] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001441] (mpu6500_ros) JobQueued: {'identifier': 'mpu6500_ros', 'dependencies': OrderedDict()}
+[0.001717] (mpu6500_ros) JobStarted: {'identifier': 'mpu6500_ros'}
+[0.020749] (mpu6500_ros) JobProgress: {'identifier': 'mpu6500_ros', 'progress': 'cmake'}
+[0.022112] (mpu6500_ros) JobProgress: {'identifier': 'mpu6500_ros', 'progress': 'build'}
+[0.023505] (mpu6500_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/RoboSub_2026/build/mpu6500_ros', '--', '-j6', '-l6'], 'cwd': '/RoboSub_2026/build/mpu6500_ros', 'env': OrderedDict([('NODE_VERSION', '20.10.0'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/RoboSub_2026/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/helpers/browser.sh'), ('HOME', '/home/david'), ('OLDPWD', '/RoboSub_2026'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('NVM_BIN', '/home/david/.nvm/versions/node/v20.10.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-deb749b3-0546-407a-be24-ea2f8aae9fa4.sock'), ('NVM_INC', '/home/david/.nvm/versions/node/v20.10.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('NVM_DIR', '/home/david/.nvm'), ('COLCON_PREFIX_PATH', '/RoboSub_2026/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d4d7a036-56ff-4e1a-be74-7dbd7b7833d1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/remote-cli:/home/david/.nvm/versions/node/v20.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/david/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/david/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-268e0bc4be491d61.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-164d5fca5f.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/RoboSub_2026/install/mpu6500_ros:/RoboSub_2026/install/turtlesim:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/sh'), ('PWD', '/RoboSub_2026/build/mpu6500_ros'), ('LC_ALL', 'C.UTF-8'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/RoboSub_2026/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/RoboSub_2026/install/mpu6500_ros:/RoboSub_2026/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.099272] (-) TimerEvent: {}
+[0.109853] (mpu6500_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mpu6500_publisher\x1b[0m\n'}
+[0.152096] (mpu6500_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o\x1b[0m\n'}
+[0.199452] (-) TimerEvent: {}
+[0.300214] (-) TimerEvent: {}
+[0.400903] (-) TimerEvent: {}
+[0.501564] (-) TimerEvent: {}
+[0.602298] (-) TimerEvent: {}
+[0.702977] (-) TimerEvent: {}
+[0.803640] (-) TimerEvent: {}
+[0.904325] (-) TimerEvent: {}
+[1.005023] (-) TimerEvent: {}
+[1.105719] (-) TimerEvent: {}
+[1.206401] (-) TimerEvent: {}
+[1.307092] (-) TimerEvent: {}
+[1.407879] (-) TimerEvent: {}
+[1.508574] (-) TimerEvent: {}
+[1.609264] (-) TimerEvent: {}
+[1.709941] (-) TimerEvent: {}
+[1.810650] (-) TimerEvent: {}
+[1.911360] (-) TimerEvent: {}
+[2.012297] (-) TimerEvent: {}
+[2.113116] (-) TimerEvent: {}
+[2.213918] (-) TimerEvent: {}
+[2.314747] (-) TimerEvent: {}
+[2.415600] (-) TimerEvent: {}
+[2.516426] (-) TimerEvent: {}
+[2.617292] (-) TimerEvent: {}
+[2.718145] (-) TimerEvent: {}
+[2.818993] (-) TimerEvent: {}
+[2.919885] (-) TimerEvent: {}
+[3.020734] (-) TimerEvent: {}
+[3.121594] (-) TimerEvent: {}
+[3.222444] (-) TimerEvent: {}
+[3.323300] (-) TimerEvent: {}
+[3.424236] (-) TimerEvent: {}
+[3.525048] (-) TimerEvent: {}
+[3.625876] (-) TimerEvent: {}
+[3.726674] (-) TimerEvent: {}
+[3.827538] (-) TimerEvent: {}
+[3.928339] (-) TimerEvent: {}
+[4.029139] (-) TimerEvent: {}
+[4.129949] (-) TimerEvent: {}
+[4.230777] (-) TimerEvent: {}
+[4.331620] (-) TimerEvent: {}
+[4.432426] (-) TimerEvent: {}
+[4.533231] (-) TimerEvent: {}
+[4.634028] (-) TimerEvent: {}
+[4.734888] (-) TimerEvent: {}
+[4.835733] (-) TimerEvent: {}
+[4.936523] (-) TimerEvent: {}
+[5.037382] (-) TimerEvent: {}
+[5.138193] (-) TimerEvent: {}
+[5.239015] (-) TimerEvent: {}
+[5.333234] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint8_t mpu6500_interface_spi_read(uint8_t, uint8_t*, uint16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.334015] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.334288] (mpu6500_ros) StderrLine: {'line': b'   20 |     uint8_t mpu6500_interface_spi_read(\x1b[01;35m\x1b[Kuint8_t reg\x1b[m\x1b[K, uint8_t *buf, uint16_t len) { return 1; } // Always fail\n'}
+[5.334503] (mpu6500_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.334697] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.334886] (mpu6500_ros) StderrLine: {'line': b'   20 |     uint8_t mpu6500_interface_spi_read(uint8_t reg, \x1b[01;35m\x1b[Kuint8_t *buf\x1b[m\x1b[K, uint16_t len) { return 1; } // Always fail\n'}
+[5.335097] (mpu6500_ros) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.335275] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:20:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.335459] (mpu6500_ros) StderrLine: {'line': b'   20 |     uint8_t mpu6500_interface_spi_read(uint8_t reg, uint8_t *buf, \x1b[01;35m\x1b[Kuint16_t len\x1b[m\x1b[K) { return 1; } // Always fail\n'}
+[5.336122] (mpu6500_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.336387] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint8_t mpu6500_interface_spi_write(uint8_t, uint8_t*, uint16_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.336637] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.336888] (mpu6500_ros) StderrLine: {'line': b'   21 |     uint8_t mpu6500_interface_spi_write(\x1b[01;35m\x1b[Kuint8_t reg\x1b[m\x1b[K, uint8_t *buf, uint16_t len) { return 1; } // Always fail\n'}
+[5.337129] (mpu6500_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.337364] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.337603] (mpu6500_ros) StderrLine: {'line': b'   21 |     uint8_t mpu6500_interface_spi_write(uint8_t reg, \x1b[01;35m\x1b[Kuint8_t *buf\x1b[m\x1b[K, uint16_t len) { return 1; } // Always fail\n'}
+[5.337840] (mpu6500_ros) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.338075] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:21:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.338316] (mpu6500_ros) StderrLine: {'line': b'   21 |     uint8_t mpu6500_interface_spi_write(uint8_t reg, uint8_t *buf, \x1b[01;35m\x1b[Kuint16_t len\x1b[m\x1b[K) { return 1; } // Always fail\n'}
+[5.338550] (mpu6500_ros) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.338783] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid mpu6500_interface_receive_callback(uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.339017] (-) TimerEvent: {}
+[5.339369] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:24:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.339785] (mpu6500_ros) StderrLine: {'line': b'   24 |     void mpu6500_interface_receive_callback(\x1b[01;35m\x1b[Kuint8_t type\x1b[m\x1b[K) {\n'}
+[5.340055] (mpu6500_ros) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.427951] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MPU6500Publisher::initialize_mpu6500()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.428603] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:127:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMPU6500_CLOCK_PLL_GYRO_X_REFERENCE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.428959] (mpu6500_ros) StderrLine: {'line': b'  127 |         if (mpu6500_set_clock(&handle_, \x1b[01;31m\x1b[KMPU6500_CLOCK_PLL_GYRO_X_REFERENCE\x1b[m\x1b[K) != 0) {\n'}
+[5.429216] (mpu6500_ros) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.439142] (-) TimerEvent: {}
+[5.445983] (mpu6500_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/RoboSub_2026/src/mpu6500_ros/src/mpu6500_publisher.cpp:127:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmpu6500_set_clock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmpu6500_set_sleep\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.446415] (mpu6500_ros) StderrLine: {'line': b'  127 |         if (\x1b[01;31m\x1b[Kmpu6500_set_clock\x1b[m\x1b[K(&handle_, MPU6500_CLOCK_PLL_GYRO_X_REFERENCE) != 0) {\n'}
+[5.446700] (mpu6500_ros) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.446960] (mpu6500_ros) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kmpu6500_set_sleep\x1b[m\x1b[K\n'}
+[5.539394] (-) TimerEvent: {}
+[5.640285] (-) TimerEvent: {}
+[5.741119] (-) TimerEvent: {}
+[5.841945] (-) TimerEvent: {}
+[5.942731] (-) TimerEvent: {}
+[6.043590] (-) TimerEvent: {}
+[6.144386] (-) TimerEvent: {}
+[6.245185] (-) TimerEvent: {}
+[6.345975] (-) TimerEvent: {}
+[6.446810] (-) TimerEvent: {}
+[6.547669] (-) TimerEvent: {}
+[6.648475] (-) TimerEvent: {}
+[6.749280] (-) TimerEvent: {}
+[6.850096] (-) TimerEvent: {}
+[6.950930] (-) TimerEvent: {}
+[7.051791] (-) TimerEvent: {}
+[7.152599] (-) TimerEvent: {}
+[7.253419] (-) TimerEvent: {}
+[7.354235] (-) TimerEvent: {}
+[7.455058] (-) TimerEvent: {}
+[7.555923] (-) TimerEvent: {}
+[7.647605] (mpu6500_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpu6500_publisher.dir/build.make:76: CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o] Error 1\n'}
+[7.648364] (mpu6500_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpu6500_publisher.dir/all] Error 2\n'}
+[7.648783] (mpu6500_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.655084] (mpu6500_ros) CommandEnded: {'returncode': 2}
+[7.656665] (-) TimerEvent: {}
+[7.705396] (mpu6500_ros) JobEnded: {'identifier': 'mpu6500_ros', 'rc': 2}
+[7.717249] (-) EventReactorShutdown: {}
