@@ -19,7 +19,8 @@
             "donjayamanne.python-extension-pack",
             "eamodio.gitlens",
             "Ranch-Hand-Robotics.rde-ros-2",
-            "Ranch-Hand-Robotics.urdf-editor"
+            "Ranch-Hand-Robotics.urdf-editor",
+            "ms-vscode.cmake-tools"
         ]
     }
   },
