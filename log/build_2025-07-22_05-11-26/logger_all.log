@@ -1,0 +1,242 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mpu6500_ros']
+[0.225s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mpu6500_ros'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb5b9b6a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb5b9b070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb5b9b070>>, mixin_verb=('build',))
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.522s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/RoboSub_2026'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver) by extension 'python_setup_py'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['cmake', 'python']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/build) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'ros'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/example) by extension 'python_setup_py'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/inc) by extension 'python_setup_py'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'ros'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['cmake', 'python']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'cmake'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'python'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extensions ['python_setup_py']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_driver/src) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6500_ros) by extension 'ros'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpu6500_ros' with type 'ros.ament_cmake' and name 'mpu6500_ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'src/ros_tutorials/turtlesim'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_target' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'mpu6500_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.614s] DEBUG:colcon.colcon_core.verb:Building package 'mpu6500_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/RoboSub_2026/build/mpu6500_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/RoboSub_2026/install/mpu6500_ros', 'merge_install': False, 'path': '/RoboSub_2026/src/mpu6500_ros', 'symlink_install': False, 'test_result_base': None}
+[0.614s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.618s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/RoboSub_2026/src/mpu6500_ros' with build type 'ament_cmake'
+[0.618s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/RoboSub_2026/src/mpu6500_ros'
+[0.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/mpu6500_ros
+[0.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6500_ros)
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/mpu6500_ros
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros' for CMake module files
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros' for CMake config files
+[0.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6500_ros', 'cmake_prefix_path')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.sh'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/bin'
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib/pkgconfig/mpu6500_ros.pc'
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib/python3.10/site-packages'
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/bin'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.dsv'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.sh'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.bash'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.zsh'
+[0.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/RoboSub_2026/install/mpu6500_ros/share/colcon-core/packages/mpu6500_ros)
+[0.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpu6500_ros)
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros' for CMake module files
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6500_ros', 'cmake_prefix_path')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/hook/cmake_prefix_path.sh'
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib/pkgconfig/mpu6500_ros.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/RoboSub_2026/install/mpu6500_ros/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.bash'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.zsh'
+[0.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/RoboSub_2026/install/mpu6500_ros/share/colcon-core/packages/mpu6500_ros)
+[0.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.900s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.920s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.920s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.928s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.928s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/RoboSub_2026/install/local_setup.ps1'
+[0.934s] INFO:colcon.colcon_core.shell:Creating prefix util module '/RoboSub_2026/install/_local_setup_util_ps1.py'
+[0.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/RoboSub_2026/install/setup.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/RoboSub_2026/install/local_setup.sh'
+[0.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/RoboSub_2026/install/_local_setup_util_sh.py'
+[0.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/RoboSub_2026/install/setup.sh'
+[0.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/RoboSub_2026/install/local_setup.bash'
+[0.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/RoboSub_2026/install/setup.bash'
+[0.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/RoboSub_2026/install/local_setup.zsh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/RoboSub_2026/install/setup.zsh'

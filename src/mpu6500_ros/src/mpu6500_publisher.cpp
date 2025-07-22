@@ -17,31 +17,8 @@ using namespace std::chrono_literals;
 extern "C" {
     uint8_t mpu6500_interface_spi_init(void) { return 0; }
     uint8_t mpu6500_interface_spi_deinit(void) { return 0; }
-    uint8_t mpu6500_interface_spi_read(uint8_t reg, uint8_t *buf, uint16_t len) { 
-        (void)reg; (void)buf; (void)len;
-        return 1; // Always fail
-    }
-    uint8_t mpu6500_interface_spi_write(uint8_t reg, uint8_t *buf, uint16_t len) { 
-        (void)reg; (void)buf; (void)len;
-        return 1; // Always fail
-    }
-    
-    // Required callback functions
-    void mpu6500_interface_receive_callback(uint8_t type) {
-        // Empty callback - we're polling instead of using interrupts
-        (void)type; // Suppress unused parameter warning
-    }
-    
-    void mpu6500_interface_dmp_tap_callback(uint8_t count, uint8_t direction) {
-        // Empty callback - not using DMP tap detection
-        (void)count;
-        (void)direction;
-    }
-    
-    void mpu6500_interface_dmp_orient_callback(uint8_t orientation) {
-        // Empty callback - not using DMP orientation detection
-        (void)orientation;
-    }
+    uint8_t mpu6500_interface_spi_read(uint8_t reg, uint8_t *buf, uint16_t len) { return 1; } // Always fail
+    uint8_t mpu6500_interface_spi_write(uint8_t reg, uint8_t *buf, uint16_t len) { return 1; } // Always fail
 }
 
 class MPU6500Publisher : public rclcpp::Node
@@ -94,78 +71,49 @@ public:
 private:
     int initialize_mpu6500()
     {
-        // Initialize the handle structure to zero first
-        memset(&handle_, 0, sizeof(handle_));
+        // Set up the handle with both I2C and dummy SPI functions
+        handle_.debug_print = mpu6500_interface_debug_print;
+        handle_.delay_ms = mpu6500_interface_delay_ms;
         
-        // Use the driver macros to link functions properly
-        DRIVER_MPU6500_LINK_DEBUG_PRINT(&handle_, mpu6500_interface_debug_print);
-        DRIVER_MPU6500_LINK_DELAY_MS(&handle_, mpu6500_interface_delay_ms);
-        DRIVER_MPU6500_LINK_RECEIVE_CALLBACK(&handle_, mpu6500_interface_receive_callback);
+        // I2C functions
+        handle_.iic_init = mpu6500_interface_iic_init;
+        handle_.iic_deinit = mpu6500_interface_iic_deinit;
+        handle_.iic_read = mpu6500_interface_iic_read;
+        handle_.iic_write = mpu6500_interface_iic_write;
         
-        // Link I2C functions
-        DRIVER_MPU6500_LINK_IIC_INIT(&handle_, mpu6500_interface_iic_init);
-        DRIVER_MPU6500_LINK_IIC_DEINIT(&handle_, mpu6500_interface_iic_deinit);
-        DRIVER_MPU6500_LINK_IIC_READ(&handle_, mpu6500_interface_iic_read);
-        DRIVER_MPU6500_LINK_IIC_WRITE(&handle_, mpu6500_interface_iic_write);
-        
-        // Link SPI dummy functions
-        DRIVER_MPU6500_LINK_SPI_INIT(&handle_, mpu6500_interface_spi_init);
-        DRIVER_MPU6500_LINK_SPI_DEINIT(&handle_, mpu6500_interface_spi_deinit);
-        DRIVER_MPU6500_LINK_SPI_READ(&handle_, mpu6500_interface_spi_read);
-        DRIVER_MPU6500_LINK_SPI_WRITE(&handle_, mpu6500_interface_spi_write);
+        // SPI dummy functions
+        handle_.spi_init = mpu6500_interface_spi_init;
+        handle_.spi_deinit = mpu6500_interface_spi_deinit;
+        handle_.spi_read = mpu6500_interface_spi_read;
+        handle_.spi_write = mpu6500_interface_spi_write;
 
         // Initialize the MPU6500
-        RCLCPP_INFO(this->get_logger(), "Initializing MPU6500...");
-        uint8_t result = mpu6500_init(&handle_);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to initialize MPU6500 sensor, error code: %d", result);
+        if (mpu6500_init(&handle_) != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to initialize MPU6500 sensor");
             return -1;
         }
 
         // Set the interface to I2C
-        RCLCPP_INFO(this->get_logger(), "Setting interface to I2C...");
-        result = mpu6500_set_interface(&handle_, MPU6500_INTERFACE_IIC);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to set MPU6500 interface to I2C, error code: %d", result);
+        if (mpu6500_set_interface(&handle_, MPU6500_INTERFACE_IIC) != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to set MPU6500 interface to I2C");
             return -1;
         }
 
         // Set the address (0x68 corresponds to MPU6500_ADDRESS_AD0_LOW)
-        RCLCPP_INFO(this->get_logger(), "Setting I2C address to 0x68...");
-        result = mpu6500_set_addr_pin(&handle_, MPU6500_ADDRESS_AD0_LOW);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to set MPU6500 address, error code: %d", result);
+        if (mpu6500_set_addr_pin(&handle_, MPU6500_ADDRESS_AD0_LOW) != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to set MPU6500 address");
             return -1;
-        }
-
-        // Disable sleep mode first
-        RCLCPP_INFO(this->get_logger(), "Disabling sleep mode...");
-        result = mpu6500_set_sleep(&handle_, MPU6500_BOOL_FALSE);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to disable sleep mode, error code: %d", result);
-            return -1;
-        }
-
-        // Set clock source
-        RCLCPP_INFO(this->get_logger(), "Setting clock source...");
-        result = mpu6500_set_clock(&handle_, MPU6500_CLOCK_PLL_GYRO_X_REFERENCE);
-        if (result != 0) {
-            RCLCPP_WARN(this->get_logger(), "Failed to set clock source, error code: %d", result);
         }
 
         // Set accelerometer range (±2g)
-        RCLCPP_INFO(this->get_logger(), "Setting accelerometer range to ±2g...");
-        result = mpu6500_set_accelerometer_range(&handle_, MPU6500_ACCELEROMETER_RANGE_2G);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to set accelerometer range, error code: %d", result);
+        if (mpu6500_set_accelerometer_range(&handle_, MPU6500_ACCELEROMETER_RANGE_2G) != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to set accelerometer range");
             return -1;
         }
 
         // Set gyroscope range (±2000dps)
-        RCLCPP_INFO(this->get_logger(), "Setting gyroscope range to ±2000dps...");
-        result = mpu6500_set_gyroscope_range(&handle_, MPU6500_GYROSCOPE_RANGE_2000DPS);
-        if (result != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to set gyroscope range, error code: %d", result);
+        if (mpu6500_set_gyroscope_range(&handle_, MPU6500_GYROSCOPE_RANGE_2000DPS) != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Failed to set gyroscope range");
             return -1;
         }
 

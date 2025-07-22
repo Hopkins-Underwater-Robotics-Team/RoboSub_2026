@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
+[0.135s] [ 25%] [32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500_interface.c.o[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o[0m
+[10.227s] [ 75%] [32m[1mLinking CXX executable mpu6500_publisher[0m
+[10.646s] [100%] Built target mpu6500_publisher
+[10.672s] Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
+[10.695s] Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/mpu6500_ros
+[10.710s] -- Install configuration: ""
+[10.710s] -- Installing: /RoboSub_2026/install/mpu6500_ros/lib/mpu6500_ros/mpu6500_publisher
+[10.714s] -- Set runtime path of "/RoboSub_2026/install/mpu6500_ros/lib/mpu6500_ros/mpu6500_publisher" to ""
+[10.715s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros//launch
+[10.715s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros//launch/mpu6500_launch.py
+[10.715s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/package_run_dependencies/mpu6500_ros
+[10.715s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/parent_prefix_path/mpu6500_ros
+[10.715s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/ament_prefix_path.sh
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/ament_prefix_path.dsv
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/path.sh
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/path.dsv
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.bash
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.sh
+[10.716s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.zsh
+[10.717s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.dsv
+[10.717s] -- Installing: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.dsv
+[10.717s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/packages/mpu6500_ros
+[10.717s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/cmake/mpu6500_rosConfig.cmake
+[10.717s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/cmake/mpu6500_rosConfig-version.cmake
+[10.717s] -- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.xml
+[10.721s] Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/mpu6500_ros

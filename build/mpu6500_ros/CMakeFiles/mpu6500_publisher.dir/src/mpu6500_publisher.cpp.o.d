@@ -149,7 +149,8 @@ CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o: \
  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
@@ -295,8 +296,7 @@ CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o: \
  /opt/ros/humble/include/rmw/rmw/types.h \
  /opt/ros/humble/include/rcutils/rcutils/logging.h \
  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
- /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h \
+ /usr/include/c++/11/stdlib.h \
  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
  /opt/ros/humble/include/rcutils/rcutils/time.h \
  /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -433,7 +433,6 @@ CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
- /usr/include/c++/11/cstring \
  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \

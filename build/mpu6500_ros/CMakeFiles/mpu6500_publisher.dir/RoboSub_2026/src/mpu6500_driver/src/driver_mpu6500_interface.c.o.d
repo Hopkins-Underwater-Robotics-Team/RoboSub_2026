@@ -51,7 +51,8 @@ CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6
  /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
  /usr/include/linux/stddef.h \
  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
- /usr/include/asm-generic/posix_types.h /usr/include/stdio.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/linux/i2c.h \
+ /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \

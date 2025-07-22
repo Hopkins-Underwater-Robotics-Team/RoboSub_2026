@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000943] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001230] (mpu6500_ros) JobQueued: {'identifier': 'mpu6500_ros', 'dependencies': OrderedDict()}
+[0.001345] (mpu6500_ros) JobStarted: {'identifier': 'mpu6500_ros'}
+[0.020324] (mpu6500_ros) JobProgress: {'identifier': 'mpu6500_ros', 'progress': 'cmake'}
+[0.021692] (mpu6500_ros) JobProgress: {'identifier': 'mpu6500_ros', 'progress': 'build'}
+[0.022993] (mpu6500_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/RoboSub_2026/build/mpu6500_ros', '--', '-j6', '-l6'], 'cwd': '/RoboSub_2026/build/mpu6500_ros', 'env': OrderedDict([('NODE_VERSION', '20.10.0'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/RoboSub_2026/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/helpers/browser.sh'), ('HOME', '/home/david'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('NVM_BIN', '/home/david/.nvm/versions/node/v20.10.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-fbe73e60-e4bb-46f7-96c9-8c9bb46e3f11.sock'), ('NVM_INC', '/home/david/.nvm/versions/node/v20.10.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('NVM_DIR', '/home/david/.nvm'), ('COLCON_PREFIX_PATH', '/RoboSub_2026/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b6250fd2-10cd-4616-aff2-f6f43676f28f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/remote-cli:/home/david/.nvm/versions/node/v20.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/david/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/david/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-268e0bc4be491d61.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-164d5fca5f.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/RoboSub_2026/install/turtlesim:/RoboSub_2026/install/mpu6500_ros:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/sh'), ('PWD', '/RoboSub_2026/build/mpu6500_ros'), ('LC_ALL', 'C.UTF-8'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/RoboSub_2026/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/RoboSub_2026/install/turtlesim:/RoboSub_2026/install/mpu6500_ros:/opt/ros/humble')]), 'shell': False}
+[0.099195] (-) TimerEvent: {}
+[0.136032] (mpu6500_ros) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/mpu6500_publisher.dir/RoboSub_2026/src/mpu6500_driver/src/driver_mpu6500_interface.c.o\x1b[0m\n'}
+[0.137087] (mpu6500_ros) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpu6500_publisher.dir/src/mpu6500_publisher.cpp.o\x1b[0m\n'}
+[0.199391] (-) TimerEvent: {}
+[0.300468] (-) TimerEvent: {}
+[0.401183] (-) TimerEvent: {}
+[0.502010] (-) TimerEvent: {}
+[0.602858] (-) TimerEvent: {}
+[0.703703] (-) TimerEvent: {}
+[0.804580] (-) TimerEvent: {}
+[0.905418] (-) TimerEvent: {}
+[1.006264] (-) TimerEvent: {}
+[1.107099] (-) TimerEvent: {}
+[1.207949] (-) TimerEvent: {}
+[1.308832] (-) TimerEvent: {}
+[1.409672] (-) TimerEvent: {}
+[1.510492] (-) TimerEvent: {}
+[1.611327] (-) TimerEvent: {}
+[1.712165] (-) TimerEvent: {}
+[1.812978] (-) TimerEvent: {}
+[1.913805] (-) TimerEvent: {}
+[2.014658] (-) TimerEvent: {}
+[2.115502] (-) TimerEvent: {}
+[2.216361] (-) TimerEvent: {}
+[2.317226] (-) TimerEvent: {}
+[2.418084] (-) TimerEvent: {}
+[2.518928] (-) TimerEvent: {}
+[2.619800] (-) TimerEvent: {}
+[2.720696] (-) TimerEvent: {}
+[2.821544] (-) TimerEvent: {}
+[2.922415] (-) TimerEvent: {}
+[3.023261] (-) TimerEvent: {}
+[3.124105] (-) TimerEvent: {}
+[3.224994] (-) TimerEvent: {}
+[3.325839] (-) TimerEvent: {}
+[3.426693] (-) TimerEvent: {}
+[3.527509] (-) TimerEvent: {}
+[3.628369] (-) TimerEvent: {}
+[3.729192] (-) TimerEvent: {}
+[3.830004] (-) TimerEvent: {}
+[3.930714] (-) TimerEvent: {}
+[4.031515] (-) TimerEvent: {}
+[4.132378] (-) TimerEvent: {}
+[4.233216] (-) TimerEvent: {}
+[4.334045] (-) TimerEvent: {}
+[4.434887] (-) TimerEvent: {}
+[4.535717] (-) TimerEvent: {}
+[4.636575] (-) TimerEvent: {}
+[4.737471] (-) TimerEvent: {}
+[4.838317] (-) TimerEvent: {}
+[4.939170] (-) TimerEvent: {}
+[5.039998] (-) TimerEvent: {}
+[5.140864] (-) TimerEvent: {}
+[5.241712] (-) TimerEvent: {}
+[5.342562] (-) TimerEvent: {}
+[5.443405] (-) TimerEvent: {}
+[5.544279] (-) TimerEvent: {}
+[5.645118] (-) TimerEvent: {}
+[5.745960] (-) TimerEvent: {}
+[5.846798] (-) TimerEvent: {}
+[5.947632] (-) TimerEvent: {}
+[6.048501] (-) TimerEvent: {}
+[6.149325] (-) TimerEvent: {}
+[6.250169] (-) TimerEvent: {}
+[6.351031] (-) TimerEvent: {}
+[6.451892] (-) TimerEvent: {}
+[6.552785] (-) TimerEvent: {}
+[6.653635] (-) TimerEvent: {}
+[6.754474] (-) TimerEvent: {}
+[6.855312] (-) TimerEvent: {}
+[6.956150] (-) TimerEvent: {}
+[7.056995] (-) TimerEvent: {}
+[7.157839] (-) TimerEvent: {}
+[7.258674] (-) TimerEvent: {}
+[7.359505] (-) TimerEvent: {}
+[7.460381] (-) TimerEvent: {}
+[7.561204] (-) TimerEvent: {}
+[7.662086] (-) TimerEvent: {}
+[7.762915] (-) TimerEvent: {}
+[7.863646] (-) TimerEvent: {}
+[7.964434] (-) TimerEvent: {}
+[8.065266] (-) TimerEvent: {}
+[8.166093] (-) TimerEvent: {}
+[8.266920] (-) TimerEvent: {}
+[8.367731] (-) TimerEvent: {}
+[8.468601] (-) TimerEvent: {}
+[8.569286] (-) TimerEvent: {}
+[8.669971] (-) TimerEvent: {}
+[8.770654] (-) TimerEvent: {}
+[8.871323] (-) TimerEvent: {}
+[8.972046] (-) TimerEvent: {}
+[9.072777] (-) TimerEvent: {}
+[9.173458] (-) TimerEvent: {}
+[9.274155] (-) TimerEvent: {}
+[9.374857] (-) TimerEvent: {}
+[9.475556] (-) TimerEvent: {}
+[9.576274] (-) TimerEvent: {}
+[9.676956] (-) TimerEvent: {}
+[9.777701] (-) TimerEvent: {}
+[9.878521] (-) TimerEvent: {}
+[9.979452] (-) TimerEvent: {}
+[10.080248] (-) TimerEvent: {}
+[10.181097] (-) TimerEvent: {}
+[10.228418] (mpu6500_ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable mpu6500_publisher\x1b[0m\n'}
+[10.281274] (-) TimerEvent: {}
+[10.381982] (-) TimerEvent: {}
+[10.482683] (-) TimerEvent: {}
+[10.583376] (-) TimerEvent: {}
+[10.647301] (mpu6500_ros) StdoutLine: {'line': b'[100%] Built target mpu6500_publisher\n'}
+[10.672300] (mpu6500_ros) CommandEnded: {'returncode': 0}
+[10.674285] (mpu6500_ros) JobProgress: {'identifier': 'mpu6500_ros', 'progress': 'install'}
+[10.683498] (-) TimerEvent: {}
+[10.694503] (mpu6500_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/RoboSub_2026/build/mpu6500_ros'], 'cwd': '/RoboSub_2026/build/mpu6500_ros', 'env': OrderedDict([('NODE_VERSION', '20.10.0'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/RoboSub_2026/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/helpers/browser.sh'), ('HOME', '/home/david'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('NVM_BIN', '/home/david/.nvm/versions/node/v20.10.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-fbe73e60-e4bb-46f7-96c9-8c9bb46e3f11.sock'), ('NVM_INC', '/home/david/.nvm/versions/node/v20.10.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('NVM_DIR', '/home/david/.nvm'), ('COLCON_PREFIX_PATH', '/RoboSub_2026/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b6250fd2-10cd-4616-aff2-f6f43676f28f.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-arm64/7adae6a56e34cb64d08899664b814cf620465925/bin/remote-cli:/home/david/.nvm/versions/node/v20.10.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts:/home/david/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X2","/home/david/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':2'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/david/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-268e0bc4be491d61.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-164d5fca5f.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/RoboSub_2026/install/turtlesim:/RoboSub_2026/install/mpu6500_ros:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/sh'), ('PWD', '/RoboSub_2026/build/mpu6500_ros'), ('LC_ALL', 'C.UTF-8'), ('NVM_CD_FLAGS', ''), ('PYTHONPATH', '/RoboSub_2026/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/RoboSub_2026/install/turtlesim:/RoboSub_2026/install/mpu6500_ros:/opt/ros/humble')]), 'shell': False}
+[10.710683] (mpu6500_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.711145] (mpu6500_ros) StdoutLine: {'line': b'-- Installing: /RoboSub_2026/install/mpu6500_ros/lib/mpu6500_ros/mpu6500_publisher\n'}
+[10.715413] (mpu6500_ros) StdoutLine: {'line': b'-- Set runtime path of "/RoboSub_2026/install/mpu6500_ros/lib/mpu6500_ros/mpu6500_publisher" to ""\n'}
+[10.715825] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros//launch\n'}
+[10.716093] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros//launch/mpu6500_launch.py\n'}
+[10.716328] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/package_run_dependencies/mpu6500_ros\n'}
+[10.716573] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/parent_prefix_path/mpu6500_ros\n'}
+[10.716781] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/ament_prefix_path.sh\n'}
+[10.716931] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/ament_prefix_path.dsv\n'}
+[10.717069] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/path.sh\n'}
+[10.717280] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/environment/path.dsv\n'}
+[10.717449] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.bash\n'}
+[10.717586] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.sh\n'}
+[10.717720] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.zsh\n'}
+[10.717850] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/local_setup.dsv\n'}
+[10.717981] (mpu6500_ros) StdoutLine: {'line': b'-- Installing: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.dsv\n'}
+[10.718114] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/ament_index/resource_index/packages/mpu6500_ros\n'}
+[10.718247] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/cmake/mpu6500_rosConfig.cmake\n'}
+[10.718377] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/cmake/mpu6500_rosConfig-version.cmake\n'}
+[10.718507] (mpu6500_ros) StdoutLine: {'line': b'-- Up-to-date: /RoboSub_2026/install/mpu6500_ros/share/mpu6500_ros/package.xml\n'}
+[10.721151] (mpu6500_ros) CommandEnded: {'returncode': 0}
+[10.783669] (-) TimerEvent: {}
+[10.787532] (mpu6500_ros) JobEnded: {'identifier': 'mpu6500_ros', 'rc': 0}
+[10.789319] (-) EventReactorShutdown: {}
