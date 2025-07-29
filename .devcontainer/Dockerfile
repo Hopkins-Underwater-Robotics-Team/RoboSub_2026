@@ -19,7 +19,6 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         python-is-python3 \
         libopencv-dev \
-        python3-opencv \
         libboost-all-dev \
         openssl \
         git \
