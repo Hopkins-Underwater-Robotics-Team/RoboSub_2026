@@ -1,6 +1,0 @@
-Invoking command in '/RoboSub_2026/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoboSub_2026/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/turtlesim
-Invoked command in '/RoboSub_2026/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /RoboSub_2026/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/RoboSub_2026/install/turtlesim
-Invoking command in '/RoboSub_2026/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/turtlesim -- -j6 -l6
-Invoked command in '/RoboSub_2026/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/turtlesim -- -j6 -l6
-Invoking command in '/RoboSub_2026/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/turtlesim
-Invoked command in '/RoboSub_2026/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /RoboSub_2026/build/turtlesim

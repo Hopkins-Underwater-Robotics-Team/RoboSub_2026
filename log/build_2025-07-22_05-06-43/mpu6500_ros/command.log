@@ -1,2 +1,0 @@
-Invoking command in '/RoboSub_2026/build/mpu6500_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
-Invoked command in '/RoboSub_2026/build/mpu6500_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /RoboSub_2026/build/mpu6500_ros -- -j6 -l6
