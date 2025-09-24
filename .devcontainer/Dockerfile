@@ -33,6 +33,7 @@ RUN apt-get update && \
         ros-humble-image-transport \
         ros-humble-desktop \
         ros-humble-turtlesim \
+        nano \
     && rm -rf /var/lib/apt/lists/*
 
 # Auto-source ROS for all users and the specific user
