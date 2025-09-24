@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/RoboSub_2026/build/turtlesim/turtlesim_node" "/RoboSub_2026/build/turtlesim/turtle_teleop_key" "/RoboSub_2026/build/turtlesim/draw_square" "/RoboSub_2026/build/turtlesim/mimic" "TARGETS" "turtlesim_node" "turtle_teleop_key" "draw_square" "mimic" "DESTINATION" "lib/turtlesim")

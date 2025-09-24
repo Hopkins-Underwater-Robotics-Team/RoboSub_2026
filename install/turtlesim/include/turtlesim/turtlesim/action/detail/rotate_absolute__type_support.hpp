@@ -1,1 +1,0 @@
-/RoboSub_2026/build/turtlesim/rosidl_generator_cpp/turtlesim/action/detail/rotate_absolute__type_support.hpp

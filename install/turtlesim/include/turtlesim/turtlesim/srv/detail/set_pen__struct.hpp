@@ -1,1 +1,0 @@
-/RoboSub_2026/build/turtlesim/rosidl_generator_cpp/turtlesim/srv/detail/set_pen__struct.hpp
